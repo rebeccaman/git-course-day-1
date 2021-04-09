@@ -4,12 +4,15 @@ import java.util.stream.Collectors;
 public class Main {
 
     static int a = 5;
-    static int x = 1;
+    static int b = 11;
 
     public static void main(String[] args) {
 
         int returnedValue = increaseInt(a);
         System.out.println(returnedValue);
+
+        int secondValue = decreaseInt(b);
+        System.out.println(secondValue);
 
     }
 
@@ -17,6 +20,12 @@ public class Main {
 
         a = (a + 1);;
         return a;
+    }
+
+    private static int decreaseInt(int minus) {
+
+        b = (b-1);
+        return b;
     }
 
 
