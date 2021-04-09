@@ -9,19 +9,16 @@ public class Main {
     public static void main(String[] args) {
 
         int returnedValue = increaseInt(a);
-        System.out.println(a);
-
+        System.out.println(returnedValue);
 
     }
 
     private static int increaseInt(int plus) {
 
-        for (int i = 1; i <= x; i++) {
-            a = (a + 1);
-        }
-        int b = a;
-        return b;
+        a = (a + 1);;
+        return a;
     }
+
 
         /*
         List<String> stringList = List.of("Avatar", "Captain America", "The avengers");
